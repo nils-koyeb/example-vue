@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+
+console.log('VITE_MY_VARIABLE:', import.meta.env.VITE_MY_VARIABLE)
 </script>
 
 <template>
